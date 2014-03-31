@@ -1,0 +1,14 @@
+Source: django-bootstrap3
+Section: python
+Priority: optional
+Maintainer: Russell Sim <russell.sim@unimelb.edu.au>
+Build-Depends: debhelper (>=8.1.0), python (>= 2.6.6-3~), python-setuptools
+Standards-Version: 3.9.5
+X-Python-Version: >= 2.6
+
+Package: python-django-bootstrap3
+Architecture: all
+Homepage: https://github.com/dyve/django-bootstrap3
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Django Bootstrap integration
+ Bootstrap support for Django projects
